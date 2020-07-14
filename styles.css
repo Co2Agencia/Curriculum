@@ -1,0 +1,176 @@
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.idioma-boton-contenedor{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80vw;
+    margin-top: 2rem;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.idioma-boton-contenedor p{
+    font-weight: 600;
+    color: rgb(189, 189, 189);
+}
+
+.idioma-boton{
+    width: 5rem;
+    height: 2.5rem;
+    background-color: rgb(231, 231, 231);
+    margin: 0 1rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+#bala-boton{
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0 0.3rem;
+    cursor: pointer;
+}
+
+
+
+.curriculum-espanol1 .cls-65{fill: black !important;}
+
+.curriculum-espanol1 .cls-64{fill: #de4c36 !important;}
+
+.curriculum-espanol1 .cls-63{fill: #0179cb !important}
+
+.curriculum-espanol1 .cls-62{fill: #df871e !important;}
+
+.curriculum-espanol1 .cls-61{fill: #5e3c16 !important;}
+
+.curriculum-espanol1 .cls-60{fill: #c9e1f6 !important;}
+
+.curriculum-espanol1 .cls-59{fill: #263364 !important;}
+
+.curriculum-espanol1 .cls-58{fill: #76c8da !important;}
+
+.curriculum-espanol1 .cls-57{fill: #2a4997 !important;}
+
+.curriculum-espanol1 .cls-56{fill: #da2286 !important;}
+
+
+.curriculum-ingles1 .cls-80{
+    font-size: 29.01px !important;
+    font-weight: 600 !important;
+    opacity: 1 !important;
+}
+
+.curriculum-ingles1 .cls-176{
+    fill: black !important;
+}
+
+.curriculum-ingles1 .cls-157{
+    font-size: 29.01px !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.curriculum-espanol1{
+    width: 80%;
+}
+
+.curriculum-ingles1{
+    width: 80%;
+    display: none;
+    margin-left: 7rem;
+}
+
+
+@media (max-width: 1300px){
+    .idioma-boton-contenedor{
+        margin-left: 75%;
+    }
+}
+
+@media (max-width: 1000px){
+    .idioma-boton-contenedor{
+        margin-left: 72%;
+        transform: scale(0.85);
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 850px){
+    .idioma-boton-contenedor{
+        margin-left: 70%;
+        margin-top: -1rem;
+    }
+    .contenedor{
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 780px){
+    .idioma-boton-contenedor{
+        margin-left: 65%;
+    }
+}
+
+@media (max-width: 670px){
+    .idioma-boton-contenedor{
+        margin-left: 60%;
+        transform: scale(0.8);
+        margin-top: -3rem;
+    }
+    .contenedor{
+        margin-top: 4rem;
+    }
+    .curriculum-ingles1{
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width: 570px){
+    .idioma-boton-contenedor{
+        margin-left: 55%;
+    }
+}
+
+@media (max-width: 500px){
+    .idioma-boton-contenedor{
+        margin-left: 45%;
+    }
+    .curriculum-espanol1, .curriculum-ingles1{
+        width: 100%;
+    }
+    .curriculum-ingles1{
+        margin-left: 0rem;
+    }
+}
+
+@media (max-width: 420px){
+    .idioma-boton-contenedor{
+        margin-left: 40%;
+        transform: scale(0.6);
+    }
+}
+
+@media (max-width: 390px){
+    .idioma-boton-contenedor{
+        margin-left: 35%;
+    }
+}
+
+@media (max-width: 355px){
+    .idioma-boton-contenedor{
+        margin-left: 30%;
+    }
+}
